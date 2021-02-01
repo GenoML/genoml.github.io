@@ -10,13 +10,13 @@
 module.exports = {
   title: 'GenoML',
   tagline: 'Automated Machine Learning (AutoML) for Genomics',
-  url: 'https://genoml.github.io',
+  url: 'https://genoml.com',
   baseUrl: '/',
   onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'genoml', // Usually your GitHub org/user name.
-  projectName: 'genoml', // Usually your repo name.
+  projectName: 'genoml.github.io', // Usually your repo name.
   themeConfig: {
     colorMode: {
       // "light" | "dark"
