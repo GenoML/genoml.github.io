@@ -314,7 +314,7 @@ function Diagram({className, height, width}) {
           </g>
         </g>
         <g>
-          <Link to="/docs/genotype">
+          <Link to="/docs/guides/input/">
             <g className="svg_element_circle">
               <circle cx="595.26" cy="473" r="90" fill="#fff"></circle>
               <text fill="#000" transform="translate(528.26 458.14)">
@@ -331,7 +331,7 @@ function Diagram({className, height, width}) {
               </text>
             </g>
           </Link>
-          <Link to="/docs/phenotype">
+          <Link to="/docs/guides/input/">
             <g className="svg_element_circle">
               <circle cx="397" cy="473" r="90" fill="#fff"></circle>
               <text fill="#000" transform="translate(330 458.14)">
@@ -348,7 +348,7 @@ function Diagram({className, height, width}) {
               </text>
             </g>
           </Link>
-          <Link to="/docs/gwas">
+          <Link to="/docs/guides/input/">
             <g className="svg_element_circle">
               <circle cx="397" cy="853" r="90" fill="#fff"></circle>
               <text
@@ -367,7 +367,7 @@ function Diagram({className, height, width}) {
               </text>
             </g>
           </Link>
-          <Link to="/docs/omics">
+          <Link to="/docs/guides/input/">
             <g className="svg_element_circle">
               <circle cx="397" cy="663" r="90" fill="#fff"></circle>
               <text fill="#000" transform="translate(330 648.14)">
@@ -384,7 +384,7 @@ function Diagram({className, height, width}) {
               </text>
             </g>
           </Link>
-          <Link to="/docs/single-cell">
+          <Link to="/docs/guides/input/">
             <g className="svg_element_circle">
               <circle cx="595.26" cy="853" r="90" fill="#fff"></circle>
               <text fill="#000" transform="translate(528.26 838.14)">
@@ -403,7 +403,7 @@ function Diagram({className, height, width}) {
           </Link>
         </g>
         <g>
-          <Link to="/docs/validation">
+          <Link to="/docs/guides/validation">
             <g className="svg_element">
               <g>
                 <path
@@ -437,7 +437,7 @@ function Diagram({className, height, width}) {
               </g>
             </g>
           </Link>
-          <Link to="/docs/tuning">
+          <Link to="/docs/guides/tuning">
             <g className="svg_element">
               <g>
                 <path
@@ -471,7 +471,7 @@ function Diagram({className, height, width}) {
               </g>
             </g>
           </Link>
-          <Link to="/docs/training">
+          <Link to="/docs/guides/training">
             <g className="svg_element">
               <g>
                 <path
@@ -505,7 +505,7 @@ function Diagram({className, height, width}) {
               </g>
             </g>
           </Link>
-          <Link to="/docs/harmonization">
+          <Link to="/docs/guides/experimental">
             <g className="svg_element">
               <g>
                 <path
@@ -539,7 +539,7 @@ function Diagram({className, height, width}) {
               </g>
             </g>
           </Link>
-          <Link to="/docs/munging">
+          <Link to="/docs/guides/munging">
             <g className="svg_element">
               <g>
                 <path
@@ -575,7 +575,7 @@ function Diagram({className, height, width}) {
           </Link>
         </g>
         <g>
-          <Link to="/docs/prs">
+          <Link to="/docs">
             <g className="svg_element_circle">
               <circle cx="1327.5" cy="487.5" r="104.5" fill="#fff"></circle>
               <text
@@ -597,7 +597,7 @@ function Diagram({className, height, width}) {
               </text>
             </g>
           </Link>
-          <Link to="/docs/target-identification">
+          <Link to="/docs">
             <g className="svg_element_circle">
               <circle cx="1495.9" cy="663" r="104.5" fill="#fff"></circle>
               <text
@@ -616,7 +616,7 @@ function Diagram({className, height, width}) {
               </text>
             </g>
           </Link>
-          <Link to="/docs/cohort">
+          <Link to="/docs">
             <g className="svg_element_circle">
               <circle cx="1327.5" cy="838.5" r="104.5" fill="#fff"></circle>
               <text

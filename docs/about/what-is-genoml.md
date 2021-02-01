@@ -2,8 +2,8 @@
 last_modified_on: "2020-12-18"
 title: "What is GenoML?" 
 ---
-****** GenoML workflow image 
 
+![GenoML WorkFlow](/img/genoml-workflow.png)
 
 GenoML is more than a tool; it is a community for democratizing and automating machine learning workflows for genomics and multi-omics with an #OpenScience philosophy.
 
