@@ -107,3 +107,4 @@ dist
 .docusaurus/
 .idea/
 package-lock.json
+yarn.lock

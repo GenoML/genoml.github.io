@@ -17,6 +17,7 @@ module.exports = {
     favicon: 'img/favicon.ico',
     organizationName: 'genoml', // Usually your GitHub org/user name.
     projectName: 'genoml.github.io', // Usually your repo name.
+    plugins: ['@docusaurus/plugin-google-analytics'],
     themeConfig: {
         colorMode: {
             // "light" | "dark"
@@ -105,6 +106,10 @@ module.exports = {
                 },
             ],
             copyright: `Copyright © ${new Date().getFullYear()} Data Tecnica International, LLC.`,
+        },
+        googleAnalytics: {
+            trackingID: 'UA-134657372-1',
+            anonymizeIP: false,
         },
     },
     presets: [
