@@ -63,7 +63,7 @@ html[data-theme="dark"] {
 .svg_element {
     transition: all 200ms linear;
     transform-origin: 50% 50%;
-    transform-box: content-box;
+    transform-box: fill-box;
 }
 
 .svg_element_circle:hover {
