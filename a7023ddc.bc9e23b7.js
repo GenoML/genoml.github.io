@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{88:function(n){n.exports=JSON.parse('{"genoml":{"allTagsPath":"/blog/tags","slug":"genoml","name":"genoml","count":1,"permalink":"/blog/tags/genoml"}}')}}]);
