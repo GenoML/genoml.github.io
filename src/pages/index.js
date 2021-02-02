@@ -179,7 +179,7 @@ function Home() {
                                 'button button--primary button--outline button--lg',
                                 styles.install,
                             )}
-                            to={'https://genoml.com/docs/setup/installation'}>
+                            to={useBaseUrl('docs/setup/installation')}>
                             Install
                         </Link>
 
@@ -811,7 +811,7 @@ function Arch() {
                     </Link>
                 </g>
                 <g>
-                    <Link to="/docs">
+                    <Link to="/docs/use-cases/prs">
                         <g className="svg_element_circle">
                             <circle cx="1327.5" cy="487.5" r="104.5" fill="#fff"></circle>
                             <text
@@ -833,7 +833,7 @@ function Arch() {
                             </text>
                         </g>
                     </Link>
-                    <Link to="/docs">
+                    <Link to="/docs/use-cases/target-identification">
                         <g className="svg_element_circle">
                             <circle cx="1495.9" cy="663" r="104.5" fill="#fff"></circle>
                             <text
@@ -852,7 +852,7 @@ function Arch() {
                             </text>
                         </g>
                     </Link>
-                    <Link to="/docs">
+                    <Link to="/docs/use-cases/cohort-stratification">
                         <g className="svg_element_circle">
                             <circle cx="1327.5" cy="838.5" r="104.5" fill="#fff"></circle>
                             <text
