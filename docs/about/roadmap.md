@@ -25,7 +25,7 @@ This is when the exciting stuff starts happening, expanding the scope of GenoML 
 
 The framework layer, GenoML Auto, is the GenoMLv2 package. In the v3, it will be redesigned to enable the new upper layers. It will also be tested to be compatible with the “Resource manager” layer supporting a broad range of platforms. The core developer team maintains GenoML Auto. Contributions from the community are welcome. 
 
-### New GenoML ecosystem components: 
+The GenoML ecosystem components include: 
 - **GenoML Repo:** a repository of developed machine learning models, GWAS summary stats, etc. 
 - **GenoML Board:** similar to the TensorFlow board, is an interface designed for researchers to learn, try, and evaluate GenoML easily
 - **GenoML Deploy:** designed for deploying the ML models for inference in practice
