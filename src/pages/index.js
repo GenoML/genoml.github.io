@@ -177,10 +177,10 @@ function Home() {
                         <Link
                             className={clsx(
                                 'button button--primary button--outline button--lg',
-                                styles.download,
+                                styles.install,
                             )}
-                            to={'https://github.com/GenoML/genoml/releases/'}>
-                            Download
+                            to={'https://genoml.com/docs/setup/installation'}>
+                            Install
                         </Link>
 
                         <Link
@@ -198,7 +198,7 @@ function Home() {
                     {/*</div>*/}
                     <Arch className={styles.indexHeroDiagram} width="100%"/>
                     <p className="hero--subsubtitle">
-                        As of December 2020, GenoML has been downloaded more than 13,000 times.
+                        As of December 2020, GenoML has been downloaded more than 15,000 times.
                     </p>
                 </div>
             </header>

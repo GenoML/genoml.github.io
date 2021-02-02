@@ -41,6 +41,15 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Use cases',
+      items: [
+        "use-cases/prs",
+        "use-cases/target-identification",
+        "use-cases/cohort-stratification"
+      ],
+    },
+    {
+      type: 'category',
       label: 'Reference',
       items: [
         "reference/cli"
