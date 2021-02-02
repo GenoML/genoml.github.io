@@ -28,6 +28,8 @@ genoml discrete supervised train \
 --prefix outputs/test_discrete_geno \
 --metric_max Sensitivity
 ```
-> *Note:* The `--metric_max` flag is only available for discrete datasets.
+:::caution 
+The `--metric_max` flag is only available for discrete datasets.
+:::
 
 <a id="3"></a>

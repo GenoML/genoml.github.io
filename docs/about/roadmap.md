@@ -6,6 +6,7 @@ title: Roadmap
 
 :::info
 Last update on 02/02/21
+:::
 
 GenoML v1 started as a beta project that lasted for a year; it had >600 unique users and let the team get a lot of feedback from the community. It was an aggregation of code we have been using internally for quite some time, all of it coming from a variety of different projects and applications. Today, we've released a much-improved version of GenoML that will build a solid foundation for a modular extension. We've set some goals below and a loose timeline. 
 

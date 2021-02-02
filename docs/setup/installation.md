@@ -4,9 +4,13 @@ id: installation
 title: "Installation"
 ---
 
+:::note
 GenoML is tested on Linux and Mac with Python >3.5. Please note, GenoML is under active development; please check and use the latest version. 
+:::
 
 ## Using pip 
 You can install GenoML using pip:
 
-`pip install genoml2`
+```shell
+pip install genoml2
+```

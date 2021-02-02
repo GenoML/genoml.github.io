@@ -24,7 +24,9 @@ Be sure to have your files formatted the same as the examples, key points being:
 - Your sample IDs matching across all files
 - Your sample IDs not consisting of only integers (add a prefix or suffix to all sample IDs ensuring they are alphanumeric if this is the case before running GenoML)  
 
-> *Note:* The following examples are for discrete data, but if you substitute the following commands with `continuous` instead of discrete, you can preprocess your continuous data!
+:::info
+The following examples are for discrete data, but if you substitute the following commands with `continuous` instead of discrete, you can preprocess your continuous data!
+:::
 
 If you would like to munge just with genotypes (in PLINK binary format), the most straightforward command is the following: 
 ```shell
@@ -83,7 +85,10 @@ genoml discrete supervised munge \
 --pheno examples/discrete/training_pheno.csv \
 --gwas examples/discrete/example_GWAS.csv
 ```
-> *Note:* When using the GWAS flag, the PLINK binaries will be pruned to include matching SNPs to the GWAS file. 
+
+:::info 
+When using the GWAS flag, the PLINK binaries will be pruned to include matching SNPs to the GWAS file. 
+:::
 
 ...and if you wanted to add a p-value cut-off...
 ```shell

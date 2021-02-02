@@ -11,13 +11,11 @@ To properly test how your model performs on a dataset it's never seen before (bu
 
 Using GenoML for both your reference dataset and then your validation dataset, the process will look like the following: 
 
-1. Munge and train your first dataset
-    	- That will be your "reference" model
+1. Munge and train your first dataset. That will be your "reference" model
 2. Use the outputs of step 1's munge for your reference model to harmonize your incoming validation dataset
-3.  Run through the harmonization step with your validation dataset
-4.  Run through munging with your newly harmonized dataset
-5.  Retrain your reference model with only the matching columns of your unseen data 
-	- Given the nature of ML algorithms, you cannot test a model on a set of data that does not have identical features
+3. Run through the harmonization step with your validation dataset
+4. Run through munging with your newly harmonized dataset
+5. Retrain your reference model with only the matching columns of your unseen data. Given the nature of ML algorithms, you cannot test a model on a set of data that does not have identical features
 6. Test your newly retrained reference model on the unseen data
 
 ### Harmonizing your Validation/Test Dataset 
@@ -30,7 +28,7 @@ Using GenoML for both your reference dataset and then your validation dataset, t
 
 To harmonize your incoming validation dataset to match the SNPs and alleles to your reference dataset, the command would look like the following:
 
-"`shell
+```shell
 # Running GenoML harmonize
 
 genoml harmonize \
@@ -45,7 +43,7 @@ This step will generate:
 - `*_refSNPs_andAlleles.*` PLINK binary files (.bed, .bim, and .fam) that have the SNPs and alleles match your reference dataset
 
 Now that you have harmonized your validation dataset to your reference dataset, you can now munge using a command similar to the following:
-"`shell
+```shell
 # Running GenoML munge after GenoML harmonize
 
 genoml discrete supervised munge --prefix outputs/validation_test_discrete_geno \
@@ -63,7 +61,7 @@ To retrain your model appropriately, after munging your test data with the `--re
 When retraining of the reference model is complete, you are ready to test!
 
 A step-by-step guide on how to achieve this is listed below:
-"`shell
+```shell
 # 0. MUNGE THE REFERENCE DATASET
 genoml discrete supervised munge \
 --prefix outputs/test_discrete_geno \
