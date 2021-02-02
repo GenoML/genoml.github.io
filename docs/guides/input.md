@@ -7,7 +7,7 @@ title: "Input data"
 Here is a quick walkthrough of input file formats and general suggestions. 
 
 :::caution
-You always need a **phenotype** file and at least **genotype** or **additional** feature data. You have to have something to predict the phenotype, right? 
+You always need a **phenotype** file and at least **genotype** or **additional** feature data. You have to have sn input to predict the phenotype.
 :::
 
 ## Phenotypes (Required)
