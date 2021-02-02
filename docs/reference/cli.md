@@ -4,7 +4,7 @@ id: cli
 title: "Command-Line Interface (CLI)"
 ---
 
-If you would like to work with a continuous or discrete outcome in your \*.pheno file with `genoml continuous` or `genoml discrete`.  
+If you would like to work with a continuous or discrete outcome in your `\*.pheno` file with `genoml continuous` or `genoml discrete`.  
 
 The current iteration of documentation supports the `supervised` learning workflow; the list of workflows incoming is scary!
 After that, you can add one of the subcommands, including choice of `munge`, `train`, `tune`, or `test`, these are steps within the supervised workflow.  

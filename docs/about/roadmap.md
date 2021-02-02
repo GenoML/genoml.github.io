@@ -26,16 +26,16 @@ This is when the exciting stuff starts happening, expanding the scope of GenoML 
 The framework layer, GenoML Auto, is the GenoMLv2 package. In the v3, it will be redesigned to enable the new upper layers. It will also be tested to be compatible with the “Resource manager” layer supporting a broad range of platforms. The core developer team maintains GenoML Auto. Contributions from the community are welcome. 
 
 ### New GenoML ecosystem components: 
-- GenoML Repo: a repository of developed machine learning models, GWAS summary stats, etc. 
-- GenoML Board: similar to the TensorFlow board, is an interface designed for researchers to learn, try, and evaluate GenoML easily
-- GenoML Deploy: designed for deploying the ML models for inference in practice
-- GenoML Portal: an interface designed for clinicians/physicians for use in practice. It also provides model explanation information 
-- GenoML Federated: federated learning of GenoML. A critical component in light of recent privacy regulations. Enables learning across multiple data silos
-- GenoML Meta: meta-learning aspect of GenoML. Enabling algorithm competition and selection across data silos
-- GenoML python: Python and R libraries developed for use directly in those languages. 
-- GenoML Higher API: higher-level APIs, enabling more community developments 
-- GenoML Market: a place to share models trained on private datasets (model zoo)
+- **GenoML Repo:** a repository of developed machine learning models, GWAS summary stats, etc. 
+- **GenoML Board:** similar to the TensorFlow board, is an interface designed for researchers to learn, try, and evaluate GenoML easily
+- **GenoML Deploy:** designed for deploying the ML models for inference in practice
+- **GenoML Portal:** an interface designed for clinicians/physicians for use in practice. It also provides model explanation information 
+- **GenoML Federated:** federated learning of GenoML. A critical component in light of recent privacy regulations. Enables learning across multiple data silos
+- **GenoML Meta:** meta-learning aspect of GenoML. Enabling algorithm competition and selection across data silos
+- **GenoML python:** Python and R libraries developed for use directly in those languages. 
+- **GenoML Higher API:** higher-level APIs, enabling more community developments 
+- **GenoML Market:** a place to share models trained on private datasets (model zoo)
 
 GenoML v3 is a lot of work, but it is crucial for the future of multi-omics global-scale research projects.
 
-As part of use cases, we will also be including automated versions of the workflows used to support work at [The Global Parkinson’s Genetics Program](https://parkinsonsroadmap.org/gp2/) and [The NIH Center for Alzheimer’s and Related Dementias](https://www.nia.nih.gov/research/card). 
+As part of use cases, we will also be including automated versions of the workflows used to support work at the [Global Parkinson’s Genetics Program](https://parkinsonsroadmap.org/gp2/) and the [NIH Center for Alzheimer’s and Related Dementias](https://www.nia.nih.gov/research/card). 

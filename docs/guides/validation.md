@@ -136,6 +136,8 @@ genoml discrete supervised test \
     # outputs/validation_test_discrete_geno.testedModel_allSamples_performanceMetrics.csv
 ```
 
-> *Note:* When munging the test dataset on the reference model columns using the --ref_cols_harmonize, be sure not to include the --feature_selection flag, as you have already specified the columns to keep moving forward.
+:::caution 
+When munging the test dataset on the reference model columns using the `--ref_cols_harmonize`, be sure not to include the `--feature_selection` flag, as you have already specified the columns to keep moving forward.
+:::
 
 <a id="5"></a>

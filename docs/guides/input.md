@@ -7,7 +7,7 @@ title: "Input data"
 Here is a quick walkthrough of input file formats and general suggestions. 
 
 :::caution
-You always need a **phenotype** file and at least **genotype** or **"additional"** feature data. You have to have something to predict the phenotype, right? **GenoML** = **Geno**mcis + **M**achine **L**earning, so you get some genomics workflows plus a fully functional AutoML.
+You always need a **phenotype** file and at least **genotype** or **additional** feature data. You have to have something to predict the phenotype, right? 
 :::
 
 ## Phenotypes (Required)
