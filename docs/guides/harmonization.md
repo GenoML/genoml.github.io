@@ -5,7 +5,7 @@ title: "Data harmonization"
 ---
 
 :::info
-This step is necessary for testing/validation with an external dataset. You can skip this step if you don't have an external validation dataset. 
+This step is necessary for [testing and validation](/docs/guides/validation) with an external dataset. You can skip this step if you don't have an external validation dataset. 
 :::
 
 To properly test how your model performs on a dataset it's never seen before (but you start with different PLINK binaries), we have created the harmonization step that will:
@@ -23,7 +23,7 @@ Using GenoML for both your reference dataset and then your validation dataset, t
 6. Test your newly retrained reference model on the unseen data
 
 :::info
-If you are using an external validation dataset, Steps 1-4 are performed here as part of the harmonization process. Steps 5-6 are performed as part of the [Testing and validation](/docs/guides/validation) process. 
+If you are using an external validation dataset, Steps 1-4 are performed here as part of the harmonization process. Steps 5-6 are performed as part of the [testing and validation](/docs/guides/validation) process. 
 :::
 
 ### Harmonizing your Validation/Test Dataset 

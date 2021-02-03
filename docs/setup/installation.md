@@ -14,3 +14,9 @@ You can install GenoML using pip:
 ```shell
 pip install genoml2
 ```
+
+## From GitHub source 
+Altenranitvel, you can install GenoML directly from the GitHub repository (from source; master branch):
+```shell
+git clone https://github.com/GenoML/genoml2.git
+```
