@@ -33,6 +33,7 @@ module.exports = {
       items: [
         "guides/input",
         "guides/munging",
+        "guides/harmonization",
         "guides/training",
         "guides/tuning",
         "guides/validation",

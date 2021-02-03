@@ -4,7 +4,7 @@ id: cli
 title: "Command-Line Interface (CLI)"
 ---
 
-If you would like to work with a continuous or discrete outcome in your `\*.pheno` file with `genoml continuous` or `genoml discrete`.  
+If you would like to work with a continuous or discrete outcome in your `*.pheno` file with `genoml continuous` or `genoml discrete`.  
 
 The current iteration of documentation supports the `supervised` learning workflow; the list of workflows incoming is scary!
 After that, you can add one of the subcommands, including choice of `munge`, `train`, `tune`, or `test`, these are steps within the supervised workflow.  
@@ -55,6 +55,8 @@ optional arguments:
                         training phase that we will use to compare.
   -v, --verbose         Verbose output.
 ~~~~
+
+
 ## genoml discrete supervised munge
 ~~~~
 usage: genoml discrete supervised munge [-h] [--prefix PREFIX]
@@ -108,6 +110,8 @@ optional arguments:
                         step.
   -v, --verbose         Verbose output.
 ~~~~
+
+
 ## genoml continuous supervised munge
 ~~~~
 usage: genoml continuous supervised munge [-h] [--prefix PREFIX]
@@ -162,6 +166,8 @@ optional arguments:
                         step.
   -v, --verbose         Verbose output.
 ~~~~
+
+
 ## genoml discrete supervised train
 ~~~~
 usage: genoml discrete supervised train [-h] [--prefix PREFIX]
@@ -184,6 +190,8 @@ optional arguments:
                         *_finalHarmonizedCols_toKeep.txt
   -v, --verbose         Verbose output.
 ~~~~
+
+
 ## genoml continuous supervised train
 ~~~~
 usage: genoml continuous supervised train [-h] [--prefix PREFIX]
@@ -201,6 +209,8 @@ optional arguments:
                         *_finalHarmonizedCols_toKeep.txt
   -v, --verbose         Verbose output.
 ~~~~
+
+
 ## genoml discrete supervised tune
 ~~~~
 usage: genoml discrete supervised tune [-h] [--prefix PREFIX]
@@ -223,6 +233,8 @@ optional arguments:
                         runs for the algorithms [default: 5].
   -v, --verbose         Verbose output.
 ~~~~
+
+
 ## genoml continuous supervised tune
 ~~~~
 usage: genoml continuous supervised tune [-h] [--prefix PREFIX]
@@ -241,6 +253,8 @@ optional arguments:
                        runs for the algorithms [default: 5].
   -v, --verbose        Verbose output.
 ~~~~
+
+
 ## genoml discrete supervised test
 ~~~~
 usage: genoml discrete supervised test [-h] [--prefix PREFIX]
@@ -263,6 +277,8 @@ optional arguments:
                         the '.joblib' suffix.
   -v, --verbose         Verbose output.
 ~~~~
+
+
 ## genoml continuous supervised test
 ~~~~
 usage: genoml continuous supervised test [-h] [--prefix PREFIX]

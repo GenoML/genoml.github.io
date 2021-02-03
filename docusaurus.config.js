@@ -51,7 +51,7 @@ module.exports = {
                 // {to: 'blog', label: 'Blog', position: 'left'},
                 // Please keep GitHub link to the right for consistency.
                 {
-                    href: 'https://github.com/genoml/genoml',
+                    href: 'https://github.com/GenoML',
                     label: 'GitHub',
                     position: 'right',
                 },

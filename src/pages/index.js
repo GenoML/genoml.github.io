@@ -741,7 +741,7 @@ function Arch() {
                             </g>
                         </g>
                     </Link>
-                    <Link to="/docs/guides/experimental">
+                    <Link to="/docs/guides/harmonization">
                         <g className="svg_element">
                             <g>
                                 <path
