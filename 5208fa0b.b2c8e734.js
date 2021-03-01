@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{80:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome to GenoML","permalink":"/blog/welcome"}]}')}}]);
