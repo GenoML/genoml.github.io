@@ -1,2 +1,2 @@
 # genoml.github.io
-GenoML Website and Documentation
+[GenoML Website](https://www.genoml.com) and Documentation
