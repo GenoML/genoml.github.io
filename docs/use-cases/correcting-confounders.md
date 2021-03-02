@@ -10,7 +10,7 @@ This section is under development.
 
 Something cool that we have done in GenoML is to allow you at the `munge`-ing phase is allow you to correct a dataset for potential confounding variables. This can be anything from correcting gene expresison data for study site and batch to correcting a genome-wide set of SNPs for population stratification.  
 Please check out the following options in the `munge` workflow to correct your data for know covariates. In future releases, we might help you correct for hidden or latent covariates as well.
-`
+```
   --umap_reduce {no,yes}
                         Would you like to reduce your dimensions with UMAP?
                         [default: no]. Must be run with --confounders flag if
@@ -30,7 +30,7 @@ Please check out the following options in the `munge` workflow to correct your d
                         For adjusting data. A .csv of confounders to adjust
                         for with ID column and header.Numeric, with no missing
                         data and the ID columnis mandatory
-`
+```
 
 ## Cohort stratification in GenoML
 Run:
