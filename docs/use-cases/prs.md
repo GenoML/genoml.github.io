@@ -1,14 +1,14 @@
 ---
 last_modified_on: "2021-02-02"
 id: prs
-title: "Polygenic Risk Score (PRS)"
+title: "Genetic risk estiamtes"
 ---
 
 :::note
 This section is under development.
 :::
 
-One of the use cases of GenoML is Polygenic Risk Score (PRS). PRS is a number that summarises the estimated effect of many genetic variants on an individual's phenotype, typically calculated as a weighted sum of trait-associated alleles.It reflects an individuals estimated genetic predisposition for a given trait and can be used as a predictor for that trait. Polygenic scores are widely used in animal breeding and plant breeding (usually termed genomic prediction or genomic selection) due to their efficacy in improving livestock breeding and crops. They are also increasingly being used for risk prediction in humans for complex diseases which are typically affected by many genetic variants that each confer a small effect on overall risk.  
+Most people are generally familiar with the concept of polygenic risk scores (PRS). PRS can be distilled to a number that summarises the estimated effect of many genetic variants on an individual's phenotype, typically calculated as a weighted sum of trait-associated alleles. It reflects an individual's estimated genetic predisposition for a given trait and can be used as a predictor for that trait. Generally you need a huge reference genome-wide association studies (GWAS) and massive sample sizes to build one that functions well. This puts the user at the mercy of what has been published as these models generally rely on massive GWAS for parameter weights. With GenoML, you can calculate a genetic risk estimate for your potentially novel phenotpye/trait of interest on the fly. You can also just add an existing PRS to your model build to extend that PRS and treat it as one of many features.  
 
 ## Calculating PRS in GenoML 
 Run:
