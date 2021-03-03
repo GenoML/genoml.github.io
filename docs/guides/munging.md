@@ -22,7 +22,8 @@ Be sure to have your files formatted the same as the examples, key points being:
 - **0=controls and 1=case** in your phenotype file
 - Your phenotype file consisting **only** of the "ID" and "PHENO" columns
 - Your sample IDs matching across all files
-- Your sample IDs not consisting of only integers (add a prefix or suffix to all sample IDs ensuring they are alphanumeric if this is the case before running GenoML)  
+- Your sample IDs not consisting of only integers (add a prefix or suffix to all sample IDs ensuring they are alphanumeric if this is the case before running GenoML)
+- Please avoid the use of characters like commas, semi-colons, etc. in the column headers (it is Python after all!)  
 
 :::info
 The following examples are for discrete data, but if you substitute the following commands with `continuous` instead of discrete, you can preprocess your continuous data!
@@ -134,5 +135,32 @@ genoml discrete supervised munge \
 ```
 The `--feature_selection` flag uses extraTrees ([classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.ExtraTreesClassifier.html) for discrete data; [regressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.ExtraTreesRegressor.html) for continuous data) to output a `*.approx_feature_importance.txt` file with the features most contributing to your model at the top. 
 
+:::info
+The following examples are for adjusting your data (if you have principal components or other data you'd like to adjust particular columns with)
+:::
+
+Do you have additional covariates and confounders you would like to adjust for in the munging step prior to training your model and/or would like to reduce your data? To adjust, use the `--adjust_data` flag with the following necessary flags: 
+- `--adjust_normalize`: Would you like to normalize your final adjusted data? (Default: yes)
+- `--target_features`: A .txt file, one column, with a list of features to adjust (no header). These should correspond to features in the munged dataset
+- `--confounders`: A .csv of confounders to adjust for with ID column and header. Numeric, with no missing data and the ID column is mandatory (this can be PCs, for example)
+
+To reduce your data prior to adjusting, use the `--umap_reduce yes` flag. This flag will also prompt you for if you want to adjust your data, normalize, and what your target features and confounders might be. We use the [Uniform Manifold Approximation and Projection for Dimension Reduction](https://umap-learn.readthedocs.io/en/latest/) (UMAP) to reduce your data into 2D, adjust, and exports a plot and an adjusted dataframe moving forward. This can be done by running the following: 
+
+```shell
+# Running GenoML munging on discreate data using PLINK binary files, a phenotype file, using UMAP to reduce dimensions and account for features, and running feature selection
+
+genoml discrete supervised munge \
+--prefix outputs/test_discrete_geno \
+--geno examples/discrete/training \
+--pheno examples/discrete/training_pheno.csv \
+--addit examples/discrete/training_addit.csv \
+--umap_reduce yes \
+--adjust_data yes \
+--adjust_normalize yes \
+--target_features examples/discrete/to_adjust.txt \
+--confounders examples/discrete/training_addit_confounder_example.csv \
+--feature_selection 50 
+```
+Here, the `--confounders` flag takes in a dataset of features that should be accounted for. This is a .csv file with the ID column and header included and is numeric with no missing data. **The ID column is mandatory.** The `--target_features` flag takes in a .txt with a list of features (column names) you are adjusting for.
 
 <a id="2"></a>
