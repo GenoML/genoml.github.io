@@ -811,7 +811,7 @@ function Arch() {
                     </Link>
                 </g>
                 <g>
-                    <Link to="/docs/use-cases/prs">
+                    <Link to="/docs/use-cases/genetic-risk">
                         <g className="svg_element_circle">
                             <circle cx="1327.5" cy="487.5" r="104.5" fill="#fff"></circle>
                             <text
@@ -822,13 +822,13 @@ function Arch() {
                                 transform="translate(1248.9 445.99)"
                             >
                                 <tspan x="24.492" y="22">
-                                    Polygenic{' '}
+                                    Genetic{' '}
                                 </tspan>
                                 <tspan x="21.84" y="49.672">
-                                    Risk Score{' '}
+                                    Risk{' '}
                                 </tspan>
                                 <tspan x="48.828" y="77.344">
-                                    (PRS)
+                                    Estimates
                                 </tspan>
                             </text>
                         </g>
