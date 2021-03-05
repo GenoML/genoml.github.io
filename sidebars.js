@@ -44,7 +44,8 @@ module.exports = {
       type: 'category',
       label: 'Use cases',
       items: [
-        "use-cases/prs",
+        "use-cases/outcome-prediction",
+        "use-cases/genetic-risk",
         "use-cases/target-identification",
         "use-cases/cohort-stratification"
       ],
