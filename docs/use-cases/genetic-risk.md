@@ -1,6 +1,6 @@
 ---
 last_modified_on: "2021-02-02"
-id: prs
+id: genetic-risk
 title: "Genetic risk estimates"
 ---
 
