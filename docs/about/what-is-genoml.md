@@ -21,13 +21,13 @@ GenoML is more than a package. Since its inception, it has evolved into a divers
 
 ## Issues, Suggestions, or Need Help?
 If anything is broken, confusing, or you just want new features, please hit us up on [Twitter](https://twitter.com/geno_ml) or submit a ticket to our [GitHub issues](https://github.com/GenoML/genoml/issues).
-If you want to try and troubleshoot your issue by yourself, please try running your command with the "`-v` "or "`-vvv` "options at the end to generate verbose outputs. **If you'd like to get more involved in GenoML and the community we are trying to build, please see the [collaborations page](/docs/about/contribute) for additional info.**
+If you want to try and troubleshoot your issue by yourself, please try running your command with the "`-v` "or "`-vvv` "options at the end to generate verbose outputs. If you'd like to get more involved in GenoML and the community we are trying to build, please see the [collaborations page](/docs/about/contribute) for additional info.
 
 
 ## Team 
 #### Core 
-Mary Makarious (NIA-NIH) 
-Hampton Leonard (NIA-NIH / DTI) 
+Mary Makarious (NIA-NIH / UCL) 
+Hampton Leonard (NIA-NIH / DTI / DZNE) 
 Dan Vitale (NIA-NIH / DTI) 
 Sayed Hadi Hashemi (UIUC) 
 David Saffo (NEU) 
@@ -37,7 +37,7 @@ Hirotaka Iwaki (NIA-NIH / MJFF / DTI)
 Roy H. Campbell (UIUC) 
 Andrew B. Singleton (NIA-NIH) 
 Juan A. Botia (UM) 
-Faraz Faghri (NIA-NIH / UIUC / DTI) 
+Faraz Faghri (NIA-NIH / DTI) 
 Mike A. Nalls (NIA-NIH / DTI) 
 
 #### Collaborators
@@ -50,6 +50,8 @@ Rafael Jordá Muñoz (UM)
 * [Center for Alzheimer's and Related Dementias](https://www.nia.nih.gov/news/new-nih-alzheimers-center-accelerate-translational-research), [National Institutes of Health](https://www.nih.gov) (CARD-NIH)
 * [Data Tecnica International](https://www.datatecnica.com/) (DTI) 
 * [Systems Research Group](http://srg.cs.illinois.edu), Department of Computer Science, University of Illinois at Urbana-Champaign (UIUC) 
+* UCL Movement Disorders Centre, University College London (UCL)
+* German Center for Neurodegenerative Diseases (DZNE)
 * College of Computer Sciences, Northeastern University (NEU) 
 * [The Michael J. Fox Foundation](https://www.michaeljfox.org) (MJFF) 
 * Biowulf High-Performance Computing Cluster, National Institutes of Health (Biowulf-NIH) 
