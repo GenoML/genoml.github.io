@@ -41,7 +41,7 @@ Faraz Faghri (NIA-NIH / DTI)
 Mike A. Nalls (NIA-NIH / DTI) 
 
 #### Collaborators
-Lana Sargeant (VCU) 
+Lana Sargent (VCU) 
 Susan Chacko (Biowulf-NIH) 
 Rafael Jordá Muñoz (UM) 
 
